@@ -15,6 +15,8 @@ function getEntry (globPath) {
 
 let pages = getEntry('./src/pages/**?/*.html')
 
+console.log(pages)
+
 module.exports = {
   pages,
   devServer: {
